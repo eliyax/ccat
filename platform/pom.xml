@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.eliyax.ccat</groupId>
-    <artifactId>platform</artifactId>
+    <artifactId>ccat-platform</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>com.eliyax.ccat-platform</name>
     <description>com.eliyax.ccat-platform</description>

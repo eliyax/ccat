@@ -6,13 +6,19 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.3.3.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+
     </parent>
     <groupId>com.eliyax</groupId>
     <artifactId>ccat</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>com.eliyax.ccat</name>
-    <description>Spring Boot com.eliyax.ccat</description>
+    <description>Spring Boot Ccat</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>platform</module>
+        <module>security</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

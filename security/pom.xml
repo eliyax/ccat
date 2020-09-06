@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.eliyax.ccat</groupId>
-    <artifactId>security</artifactId>
+    <artifactId>ccat-security</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>com.eliyax.ccat-security</name>
     <description>com.eliyax.ccat security</description>

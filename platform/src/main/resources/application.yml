@@ -1,3 +1,5 @@
+server:
+  port: 8090
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -17,7 +19,7 @@ spring:
       # 允许最长空闲时间
       idle-timeout: 30000
       # 此属性表示连接池的用户定义名称，主要显示在日志记录和 JMX 管理控制台中，以标识池和池配置。 默认值：自动生成
-      pool-name: custom-hikari
+      pool-name: ccat-hikari
       #此属性控制池中连接的最长生命周期，值 0 表示无限生命周期，默认 1800000 即 30 分钟
       max-lifetime: 1800000
       # 数据库连接超时时间,默认 30 秒，即 30000
